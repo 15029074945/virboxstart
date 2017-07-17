@@ -1,0 +1,8 @@
+@echo off
+
+echo 准备启动虚拟机。
+cd C:\Progra~1\Oracle\VirtualBox
+.\VBoxManage.exe  startvm  centos7 --type headless
+
+echo 启动完毕，准备退出。。。
+pause
